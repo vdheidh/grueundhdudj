@@ -3,7 +3,7 @@ const { Client, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const Discord = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
-const { token } = require('./config.json');
+//const { token } = require('./config.json');
 const { prefix } = require('./config.json');
 const fs = require('fs');
 
